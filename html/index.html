@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="Pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<!-- Início cabeçalho -->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>T</span>ravel</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">pacotes</a>
+        <a href="#services">serviços</a>
+        <a href="#gallery">galeria</a>
+        <a href="#review">review</a>
+        <a href="#contact">contato</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="pesquisar...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+</header>
+<!-- Fim cabeçalho -->
+
+<!-- Início Container login form -->
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="digite seu email" tabindex="1">
+        <input type="password" class="box" placeholder="digite sua senha" tabindex="2">
+        <input type="submit" class="btn" value="Entrar" tabindex="4">
+        <input type="checkbox" id="remember" tabindex="3">
+        <label for="remember">Lembrar de mim</label>
+        <p>esqueceu sua senha? <a href="#">clique aqui</a></p>
+        <p>não tem conta? <a href="#">registre-se agora</a></p>
+    </form>
+</div>
+<!-- Fim Container login form -->
+
+<!-- Início seção home -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>vale a pena se aventurar</h3>
+        <p>descubra novos lugares com a gente, a aventura te espera</p>
+        <a href="#home" class="btn">descubra mais</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="../videos/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="../videos/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="../videos/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="../videos/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="../videos/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="../videos/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+
+<!-- Fim seção home -->
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>
