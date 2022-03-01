@@ -563,6 +563,10 @@ header .search-bar-container label:hover {
 	width: 100%;
 }
 
+.brand-container {
+	text-align: center;
+}
+
 /* Início media queries */
 @media (max-width: 1200px) {
 	html {
